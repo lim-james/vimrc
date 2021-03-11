@@ -2,7 +2,9 @@
 
 # The Ultimate vimrc
 
-```
+```vim
+" .vimrc
+
 set runtimepath+=~/.vim_runtime
 
 source ~/.vim_runtime/vimrcs/basic.vim
