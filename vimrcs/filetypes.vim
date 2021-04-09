@@ -26,6 +26,10 @@ au FileType python map <buffer> <leader>D ?def
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
+au FileType javascript setl shiftwidth=2
+au FileType javascript setl softtabstop=2
+au FileType javascript setl expandtab
+
 au FileType javascript imap <C-t> $log();<esc>hi
 au FileType javascript imap <C-a> alert();<esc>hi
 
@@ -42,6 +46,24 @@ function! JavaScriptFold()
     endfunction
     setl foldtext=FoldText()
 endfunction
+
+
+""""""""""""""""""""""""""""""
+" => TypeScript section
+"""""""""""""""""""""""""""""""
+" au FileType javascript call JavaScriptFold()
+au FileType typescript setl fen
+au FileType typescript setl nocindent
+
+au FileType typescript setl shiftwidth=2
+au FileType typescript setl softtabstop=2
+au FileType typescript setl expandtab
+
+au FileType typescript imap <C-t> $log();<esc>hi
+au FileType typescript imap <C-a> alert();<esc>hi
+
+au FileType typescript inoremap <buffer> $r return 
+au FileType typescript inoremap <buffer> $f // --- PH<esc>FP2xi
 
 
 """"""""""""""""""""""""""""""
