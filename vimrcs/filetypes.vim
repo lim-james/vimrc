@@ -39,7 +39,6 @@ au FileType javascript inoremap <buffer> $f // --- PH<esc>FP2xi
 """"""""""""""""""""""""""""""
 " => TypeScript section
 """""""""""""""""""""""""""""""
-" au FileType javascript call JavaScriptFold()
 au FileType typescript setl fen
 au FileType typescript setl nocindent
 
