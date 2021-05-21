@@ -29,8 +29,7 @@ set guioptions-=L
 
 " Colorscheme
 set background=dark
-colorscheme nordisk
-let g:airline_theme='transparent'
+colorscheme nord
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
