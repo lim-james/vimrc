@@ -81,6 +81,7 @@ endif
 
 "Always show current position
 set ruler
+set cursorline
 
 " Height of the command bar
 set cmdheight=1
@@ -143,7 +144,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme nord
+    colorscheme gruvbox
 catch
 endtry
 
