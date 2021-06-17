@@ -6,10 +6,12 @@ cd $1
 
 VIMRC="set runtimepath+=$1
 
+source $1/vimrcs/plugs.vim
 source $1/vimrcs/basic.vim
 source $1/vimrcs/filetypes.vim
 source $1/vimrcs/plugins_config.vim
 source $1/vimrcs/extended.vim
+source $1/vimrcs/vunlde_plugins.vim
 
 try
 source $1/my_configs.vim
